@@ -1,0 +1,12 @@
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelForm.exe.config
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelForm.exe
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelForm.pdb
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelLibrary.pdb
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csprojResolveAssemblyReference.cache
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.Form1.resources
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.Properties.Resources.resources
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csproj.GenerateResource.Cache
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.exe
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.pdb
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csproj.ResolveComReference.cache
+C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelLibrary.dll
