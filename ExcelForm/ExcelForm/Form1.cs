@@ -37,12 +37,13 @@ namespace ExcelForm
             if(opf.ShowDialog() == DialogResult.OK)
             {
                 file_name = opf.FileName;
+                
                 xls_reader = new ExcelReader(file_name);
                 wks_reader = new WorkSheetReader(xls_reader.getWorkSheet());
                 
                 backgroundWorker2.RunWorkerAsync();
                 backgroundWorker1.RunWorkerAsync();
-                
+                StatusWorker.RunWorkerAsync();
             }
         }
 
@@ -62,6 +63,7 @@ namespace ExcelForm
             Environment.Exit(0);
         }
 
+        #region BackgroundWorker_1
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             
@@ -92,7 +94,8 @@ namespace ExcelForm
           
             dataGridView1.Rows[dc.vl.row-1].Cells[dc.vl.col-1].Value = dc.data;
         }
-
+        #endregion
+        #region BackgroundWorker_2
         private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
         {
             List<String> col_names = wks_reader.getColumnNames();
@@ -107,5 +110,54 @@ namespace ExcelForm
             dataGridView1.ColumnCount++;
             dataGridView1.Columns[dataGridView1.ColumnCount - 1].Name = (String)e.UserState;
         }
+        #endregion 
+        private void removeRowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows == null)
+            {
+
+            }
+            else
+            {
+                DataGridViewSelectedRowCollection DRC = dataGridView1.SelectedRows;
+                foreach (DataGridViewRow dataGridViewRow in DRC)
+                {
+                    try
+                    {
+                        dataGridView1.Rows.Remove(dataGridViewRow);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.Write(ex.StackTrace);
+                    }
+                }
+            }
+        }
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedCellCollection selectedCells = dataGridView1.SelectedCells;
+            foreach(DataGridViewCell cell in selectedCells)
+            {
+                dataGridView1.Rows[cell.RowIndex].Cells[cell.ColumnIndex].Value = "";
+            }
+        }
+
+        private void StatusWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for (; ; )
+            {
+                int n = dataGridView1.Rows.Count;
+                StatusWorker.ReportProgress(0, n);
+                System.Threading.Thread.Sleep(2000);
+            }
+        }
+
+        private void StatusWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            toolStripStatusLabel1.Text = e.UserState + " Rows";
+        }
+
+       
     }
 }

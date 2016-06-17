@@ -1,0 +1,4 @@
+C:\Git\ExcelComForm\ExcelForm\CodedUITestProject2\bin\Debug\CodedUITestProject2.dll
+C:\Git\ExcelComForm\ExcelForm\CodedUITestProject2\bin\Debug\CodedUITestProject2.pdb
+C:\Git\ExcelComForm\ExcelForm\CodedUITestProject2\obj\Debug\CodedUITestProject2.dll
+C:\Git\ExcelComForm\ExcelForm\CodedUITestProject2\obj\Debug\CodedUITestProject2.pdb

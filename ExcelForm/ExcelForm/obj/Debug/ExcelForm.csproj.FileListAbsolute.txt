@@ -10,3 +10,15 @@ C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.exe
 C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.pdb
 C:\Git\EPUK97Gui\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csproj.ResolveComReference.cache
 C:\Git\EPUK97Gui\ExcelForm\ExcelForm\bin\Debug\ExcelLibrary.dll
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\bin\Debug\ExcelForm.exe.config
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csproj.ResolveComReference.cache
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.exe
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.pdb
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\bin\Debug\ExcelForm.exe
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\bin\Debug\ExcelForm.pdb
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\bin\Debug\ExcelLibrary.dll
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\bin\Debug\ExcelLibrary.pdb
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csprojResolveAssemblyReference.cache
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.Form1.resources
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.Properties.Resources.resources
+C:\Git\ExcelComForm\ExcelForm\ExcelForm\obj\Debug\ExcelForm.csproj.GenerateResource.Cache
